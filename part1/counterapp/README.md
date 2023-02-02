@@ -1,4 +1,4 @@
-<h3 align="center"> $\{{\textcolor{orange}{REDUX\ }}}$
+<h3 align="center"> $\{{{\textcolor{orange}{REDUX\ }}}$
 </h3>
 
 ## $\color{olive}{Part6}$
