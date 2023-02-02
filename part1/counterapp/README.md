@@ -1,7 +1,7 @@
-<h3 align="center"> $\colorbox{olive}{{\textcolor{white}{REDUX\ }}}$
+<h3 align="center"> $\{{\textcolor{orange}{REDUX\ }}}$
 </h3>
 
-## $\textcolor{orange}{Part6}$
+## $\color{olive}{Part6}$
 
 ### Getting Started with Redux
 
