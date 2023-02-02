@@ -1,8 +1,6 @@
 <h3 align="center"> $\colorbox{olive}{{\color{white}{PART\ 5\ }}}$
 </h3>
 
-</details>
-
 ## $\textcolor{orange}{End\ to\ end\ REDUX}$
 
 ### Getting Started with Redux
