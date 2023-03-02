@@ -1,17 +1,19 @@
 <h3 align="center"> $\textcolor{orange}{REDUX\ }$
 </h3>
 
-## $\color{olive}{Part6}$
+## $\color{olive}{useRedux}{useContext}$
 
-### Getting Started with Redux
+### State management
 
 <p>
-Get to know Redux by implementing a counter application.
+This part of counter app uses `useReducer` and `useContext` for passing state components and defining the counter context in a separate file.
 </p>
 
 <details>
 <summary>
-Step 1
+
+## $\color{olive}{Dependencies}$
+
   </summary>
 
 ```
