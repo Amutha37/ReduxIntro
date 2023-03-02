@@ -1,7 +1,7 @@
 <h3 align="center"> $\textcolor{orange}{REDUX\ }$
 </h3>
 
-## $\color{olive}{useRedux}{useContext}$
+## $\color{olive}{useReduce}\ and\ {useContext}$
 
 ### State management
 
