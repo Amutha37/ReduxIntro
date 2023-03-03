@@ -55,4 +55,6 @@ and
 
 - Context defining the value and functionality of the counter is available to all components of the application.
 
+- React query message hooks `https://tanstack.com/query/latest/docs/react/guides/mutations?from=reactQueryV3&original=https%3A%2F%2Ftanstack.com%2Fquery%2Fv3%2Fdocs%2Fguides%2Fmutations`
+
 </details>
