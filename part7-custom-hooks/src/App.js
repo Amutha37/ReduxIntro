@@ -16,7 +16,7 @@ const App = () => {
         zero
       </button>
       <ClickCount />
-      {/* <FormField /> */}
+      <FormField />
     </div>
   )
 }
@@ -39,40 +39,50 @@ const ClickCount = () => {
   )
 }
 
-// const FormField = () => {
-//   const name = useField('text')
-//   const born = useField('date')
-//   const height = useField('number')
+const FormField = () => {
+  const name = useField('text')
+  const born = useField('date')
+  const height = useField('number')
 
-//   return (
-//     <>
-//       <form>
-//         name:
-//         <input type={name.type} value={name.value} onChange={name.onChange} />
-//         {/* without custom hooks */}
-//         {/* <input
-//           type='text'
-//           value={name}
-//           onChange={(event) => setName(event.target.value)}
-//         />  */}
-//         <br />
-//         birthdate:
-//         <input type={born.type} value={born.value} onChange={born.onChange} />
-//         <br />
-//         height:
-//         <input
-//           type={height.type}
-//           value={height.value}
-//           onChange={height.onChange}
-//         />
-//       </form>
-//       <div>
-//         <h5>Name: {name} </h5>
-//         <p> Birth: {born} </p>
-//         <p> Height: {height} </p>
-//       </div>
-//     </>
-//   )
-// }
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    console.log('Name', name.value, 'Born', born.value, 'Height', height.value)
+  }
+
+  return (
+    <>
+      <form onSubmit={handleSubmit}>
+        <div>
+          <p> name: </p>
+          <input type={name.type} value={name.value} onChange={name.onChange} />
+          {/* without custom hooks */}
+          {/* <input
+          type='text'
+          value={name}
+          onChange={(event) => setName(event.target.value)}
+        />  */}
+        </div>
+
+        <div>
+          <p> birthdate: </p>
+          <input type={born.type} value={born.value} onChange={born.onChange} />
+          <br />
+        </div>
+        <div>
+          <p> height: </p>
+
+          <input
+            type={height.type}
+            value={height.value}
+            onChange={height.onChange}
+          />
+        </div>
+        <div>
+          <button>create </button>
+        </div>
+      </form>
+    </>
+  )
+}
 
 export default App

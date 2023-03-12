@@ -29,3 +29,25 @@
 #reset {
   color: red;
 }
+p {
+  text-align: center;
+  margin-right: 1rem;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+}
+form {
+  margin-top: 5rem;
+
+  flex-direction: column;
+  justify-content: center;
+}
+input {
+  width: 5rem;
+}
+button {
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
